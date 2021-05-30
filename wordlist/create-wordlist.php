@@ -254,7 +254,7 @@ function main($argv) {
 	// Read our file
 	//
 	if (isset($params["dice"])) {
-		$filename = "count_1w.txt";
+		$filename = "nsf2021.txt";
 		$words = readWordListPeterNorvig($filename, $params["dice"]);
 		//print_r($words); // Debugging
 
